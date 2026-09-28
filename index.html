@@ -1,0 +1,47 @@
+<section id="ask-solution" class="solution-section">
+
+    <h2>ASK YOUR QUESTION</h2>
+
+    <p>Select a question to get an analysis-based solution.</p>
+
+    <select id="questionSelect">
+        <option value="">-- Select Question --</option>
+
+        <option value="subject">
+            Which subject needs more attention?
+        </option>
+
+        <option value="study">
+            How can students improve their study habits?
+        </option>
+
+        <option value="attendance">
+            Is attendance affecting learning?
+        </option>
+
+        <option value="homework">
+            How can homework completion improve?
+        </option>
+
+        <option value="support">
+            What support do students need?
+        </option>
+
+        <option value="understanding">
+            How can classroom understanding improve?
+        </option>
+    </select>
+
+    <button onclick="getSolution()">GET SOLUTION</button>
+
+    <div id="solutionBox" class="solution-box">
+        <h3>FINDING:</h3>
+        <p id="finding">Select a question to see the finding.</p>
+
+        <h3>RECOMMENDED SOLUTION:</h3>
+        <p id="recommendation">
+            Your recommended solution will appear here.
+        </p>
+    </div>
+
+</section>
